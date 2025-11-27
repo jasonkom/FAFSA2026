@@ -1,1 +1,5 @@
 curl -L https://srv.adstxtmanager.com/19390/fafsa2026.com > ads.txt
+<?php
+header('Location: https://srv.adstxtmanager.com/19390/fafsa2026.com');
+exit;
+?>
